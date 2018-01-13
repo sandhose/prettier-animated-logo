@@ -6,6 +6,7 @@ module.exports = {
   "lines": [
     {
       "initialOffset": 130,
+      "roll": 1,
       "dashes": [
         {
           "start": 0,
@@ -23,6 +24,7 @@ module.exports = {
     },
     {
       "initialOffset": -100,
+      "roll": -1,
       "dashes": [
         {
           "start": 20,
@@ -45,6 +47,7 @@ module.exports = {
     },
     {
       "initialOffset": 120,
+      "roll": 1,
       "dashes": [
         {
           "start": 40,
@@ -72,6 +75,7 @@ module.exports = {
     },
     {
       "initialOffset": 40,
+      "roll": 1,
       "dashes": [
         {
           "start": 0,
@@ -104,6 +108,7 @@ module.exports = {
     },
     {
       "initialOffset": -150,
+      "roll": -1,
       "dashes": [
         {
           "start": 70,
@@ -136,6 +141,7 @@ module.exports = {
     },
     {
       "initialOffset": 100,
+      "roll": 1,
       "dashes": [
         {
           "start": 0,
@@ -171,6 +177,7 @@ module.exports = {
     },
     {
       "initialOffset": 190,
+      "roll": 2,
       "dashes": [
         {
           "start": 20,
@@ -207,6 +214,7 @@ module.exports = {
     },
     {
       "initialOffset": -30,
+      "roll": -1,
       "dashes": [
         {
           "start": 50,
@@ -239,6 +247,7 @@ module.exports = {
     },
     {
       "initialOffset": 50,
+      "roll": 1,
       "dashes": [
         {
           "start": 20,
@@ -274,6 +283,7 @@ module.exports = {
     },
     {
       "initialOffset": 150,
+      "roll": -2,
       "dashes": [
         {
           "start": 10,
@@ -300,6 +310,7 @@ module.exports = {
     },
     {
       "initialOffset": -100,
+      "roll": 1,
       "dashes": [
         {
           "start": 40,
@@ -335,6 +346,7 @@ module.exports = {
     },
     {
       "initialOffset": -50,
+      "roll": 2,
       "dashes": [
         {
           "start": 60,
@@ -361,6 +373,7 @@ module.exports = {
     },
     {
       "initialOffset": -150,
+      "roll": -1,
       "dashes": [
         {
           "start": 40,
@@ -386,5 +399,5 @@ module.exports = {
 },{}],4:[function(require,module,exports) {
 
 },{}],2:[function(require,module,exports) {
-"use strict";var t=function(){function t(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,r.key,r)}}return function(e,n,r){return n&&t(e.prototype,n),r&&t(e,r),e}}(),e=require("preact"),n=require("./data.json"),r=o(n);require("./style.styl");function o(t){return t&&t.__esModule?t:{default:t}}function i(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function a(t,e){if(!t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!e||"object"!=typeof e&&"function"!=typeof e?t:e}function u(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function, not "+typeof e);t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}),e&&(Object.setPrototypeOf?Object.setPrototypeOf(t,e):t.__proto__=e)}var c=function(t){var n=t.index,r=t.dashes,o=t.total;return(0,e.h)("g",{className:"l"+n},r.map(function(t,r){var i=t.color;return(0,e.h)("path",{d:"m 5 "+(20*n+5)+" l "+o+" 0",class:["dash","p"+r,"c"+i].join(" ")})}))},l=function(t){var n=t.data,r=n.total,o=n.lines,i=t.active,a=20*o.length+10,u=r+20;return(0,e.h)("svg",{height:a,width:u,id:"logo",viewbox:"0 0 "+a+" "+u,class:i?"":"initial",version:"1.1"},o.map(function(t,n){var o=t.dashes;return(0,e.h)(c,{total:r,dashes:o,index:n})}))},s=function(n){u(o,e.Component);function o(){return i(this,o),a(this,(o.__proto__||Object.getPrototypeOf(o)).apply(this,arguments))}return t(o,[{key:"toggle",value:function(){this.setState({active:!this.state.active})}},{key:"render",value:function(){var t=this;return(0,e.h)("div",{id:"app"},(0,e.h)(l,{active:this.state.active,data:r.default}),(0,e.h)("button",{onClick:function(){return t.toggle()}},"Toggle"))}}]),o}();(0,e.render)((0,e.h)(s,null),document.body);
+"use strict";var e=require("preact"),t=require("./data.json"),a=r(t);require("./style.styl");function r(e){return e&&e.__esModule?e:{default:e}}var n=function(t){var a=t.index,r=t.dashes,n=t.total;return(0,e.h)("g",{className:"l"+a},r.map(function(t,r){var d=t.color;return(0,e.h)("path",{d:"m 5 "+(20*a+5)+" l "+n+" 0",class:["dash","p"+r,"c"+d].join(" ")})}))},d=function(t){var a=t.data,r=a.total,d=a.lines,i=20*d.length+10,s=r+20;return(0,e.h)("svg",{height:i,width:s,id:"logo",viewbox:"0 0 "+i+" "+s,version:"1.1"},d.map(function(t,a){var d=t.dashes;return(0,e.h)(n,{total:r,dashes:d,index:a})}))};(0,e.render)((0,e.h)("div",{id:"app"},(0,e.h)(d,{data:a.default})),document.body);
 },{"preact":5,"./data.json":3,"./style.styl":4}]},{},[2])

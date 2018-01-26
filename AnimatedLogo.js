@@ -26,6 +26,12 @@ var versions = { wide: _wide2.default, icon: _icon2.default };
 
 var noop = function noop() {};
 
+var checkAnimationName = function checkAnimationName(f) {
+  return function (e) {
+    return e.animationName.includes("roll") && f();
+  };
+};
+
 var Line = function Line(_ref) {
   var index = _ref.index,
       dashes = _ref.dashes,
@@ -40,7 +46,7 @@ var Line = function Line(_ref) {
         d: "m 5 " + (index * 20 + 5) + " l " + total + " 0",
         key: j,
         className: ["dash", "p" + j, "c" + color].join(" "),
-        onAnimationEnd: j === 0 ? onAnimationEnd : noop
+        onAnimationEnd: j === 0 ? checkAnimationName(onAnimationEnd) : noop
       });
     })
   );

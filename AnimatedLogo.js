@@ -28,7 +28,7 @@ var noop = function noop() {};
 
 var checkAnimationName = function checkAnimationName(f) {
   return function (e) {
-    return e.animationName.includes("roll") && f();
+    return e.animationName.includes("roll") && f && f();
   };
 };
 

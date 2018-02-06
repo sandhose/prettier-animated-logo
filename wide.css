@@ -18,9 +18,14 @@
   stroke-linecap: round;
   stroke-width: 10;
   animation-timing-function: cubic-bezier(0.43, 0.12, 0.44, 1), ease-in-out;
-  animation-duration: 900ms, 1.4s;
+  animation-duration: 2s, 1.4s;
   animation-fill-mode: both, none;
   animation-iteration-count: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .prettier-logo-wide .dash {
+    animation: none;
+  }
 }
 .prettier-logo-wide .l0 > path {
   animation-delay: 0ms;
@@ -34,22 +39,22 @@
   animation-name: wide-l0p0-initial, wide-l0p0-roll;
 }
 @-moz-keyframes wide-l0p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -695;
   }
 }
 @-webkit-keyframes wide-l0p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -695;
   }
 }
 @-o-keyframes wide-l0p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -695;
   }
 }
 @keyframes wide-l0p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -695;
   }
 }
@@ -82,22 +87,22 @@
   animation-name: wide-l0p1-initial, wide-l0p1-roll;
 }
 @-moz-keyframes wide-l0p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -545;
   }
 }
 @-webkit-keyframes wide-l0p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -545;
   }
 }
 @-o-keyframes wide-l0p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -545;
   }
 }
 @keyframes wide-l0p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -545;
   }
 }
@@ -130,22 +135,22 @@
   animation-name: wide-l0p2-initial, wide-l0p2-roll;
 }
 @-moz-keyframes wide-l0p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-webkit-keyframes wide-l0p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-o-keyframes wide-l0p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @keyframes wide-l0p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
@@ -178,22 +183,22 @@
   animation-name: wide-l0p3-initial, wide-l0p3-roll;
 }
 @-moz-keyframes wide-l0p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @-webkit-keyframes wide-l0p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @-o-keyframes wide-l0p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @keyframes wide-l0p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
@@ -226,22 +231,22 @@
   animation-name: wide-l0p4-initial, wide-l0p4-roll;
 }
 @-moz-keyframes wide-l0p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-webkit-keyframes wide-l0p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-o-keyframes wide-l0p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @keyframes wide-l0p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
@@ -274,22 +279,22 @@
   animation-name: wide-l0p5-initial, wide-l0p5-roll;
 }
 @-moz-keyframes wide-l0p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -240;
   }
 }
 @-webkit-keyframes wide-l0p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -240;
   }
 }
 @-o-keyframes wide-l0p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -240;
   }
 }
 @keyframes wide-l0p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -240;
   }
 }
@@ -325,22 +330,22 @@
   animation-name: wide-l1p0-initial, wide-l1p0-roll;
 }
 @-moz-keyframes wide-l1p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
 @-webkit-keyframes wide-l1p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
 @-o-keyframes wide-l1p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
 @keyframes wide-l1p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
@@ -373,22 +378,22 @@
   animation-name: wide-l1p1-initial, wide-l1p1-roll;
 }
 @-moz-keyframes wide-l1p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
 @-webkit-keyframes wide-l1p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
 @-o-keyframes wide-l1p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
 @keyframes wide-l1p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
@@ -421,22 +426,22 @@
   animation-name: wide-l1p2-initial, wide-l1p2-roll;
 }
 @-moz-keyframes wide-l1p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-webkit-keyframes wide-l1p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-o-keyframes wide-l1p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @keyframes wide-l1p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
@@ -469,22 +474,22 @@
   animation-name: wide-l1p3-initial, wide-l1p3-roll;
 }
 @-moz-keyframes wide-l1p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
 @-webkit-keyframes wide-l1p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
 @-o-keyframes wide-l1p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
 @keyframes wide-l1p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
@@ -517,22 +522,22 @@
   animation-name: wide-l1p4-initial, wide-l1p4-roll;
 }
 @-moz-keyframes wide-l1p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
 @-webkit-keyframes wide-l1p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
 @-o-keyframes wide-l1p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
 @keyframes wide-l1p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
@@ -565,22 +570,22 @@
   animation-name: wide-l1p5-initial, wide-l1p5-roll;
 }
 @-moz-keyframes wide-l1p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
 @-webkit-keyframes wide-l1p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
 @-o-keyframes wide-l1p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
 @keyframes wide-l1p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
@@ -613,22 +618,22 @@
   animation-name: wide-l1p6-initial, wide-l1p6-roll;
 }
 @-moz-keyframes wide-l1p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 54;
   }
 }
 @-webkit-keyframes wide-l1p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 54;
   }
 }
 @-o-keyframes wide-l1p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 54;
   }
 }
 @keyframes wide-l1p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 54;
   }
 }
@@ -664,22 +669,22 @@
   animation-name: wide-l2p0-initial, wide-l2p0-roll;
 }
 @-moz-keyframes wide-l2p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -625;
   }
 }
 @-webkit-keyframes wide-l2p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -625;
   }
 }
 @-o-keyframes wide-l2p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -625;
   }
 }
 @keyframes wide-l2p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -625;
   }
 }
@@ -712,22 +717,22 @@
   animation-name: wide-l2p1-initial, wide-l2p1-roll;
 }
 @-moz-keyframes wide-l2p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
 @-webkit-keyframes wide-l2p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
 @-o-keyframes wide-l2p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
 @keyframes wide-l2p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
@@ -760,22 +765,22 @@
   animation-name: wide-l2p2-initial, wide-l2p2-roll;
 }
 @-moz-keyframes wide-l2p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
 @-webkit-keyframes wide-l2p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
 @-o-keyframes wide-l2p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
 @keyframes wide-l2p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
@@ -808,22 +813,22 @@
   animation-name: wide-l2p3-initial, wide-l2p3-roll;
 }
 @-moz-keyframes wide-l2p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
 @-webkit-keyframes wide-l2p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
 @-o-keyframes wide-l2p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
 @keyframes wide-l2p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -385;
   }
 }
@@ -856,22 +861,22 @@
   animation-name: wide-l2p4-initial, wide-l2p4-roll;
 }
 @-moz-keyframes wide-l2p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @-webkit-keyframes wide-l2p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @-o-keyframes wide-l2p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @keyframes wide-l2p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
@@ -904,22 +909,22 @@
   animation-name: wide-l2p5-initial, wide-l2p5-roll;
 }
 @-moz-keyframes wide-l2p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -265;
   }
 }
 @-webkit-keyframes wide-l2p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -265;
   }
 }
 @-o-keyframes wide-l2p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -265;
   }
 }
 @keyframes wide-l2p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -265;
   }
 }
@@ -952,22 +957,22 @@
   animation-name: wide-l2p6-initial, wide-l2p6-roll;
 }
 @-moz-keyframes wide-l2p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
 @-webkit-keyframes wide-l2p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
 @-o-keyframes wide-l2p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
 @keyframes wide-l2p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
@@ -1003,22 +1008,22 @@
   animation-name: wide-l3p0-initial, wide-l3p0-roll;
 }
 @-moz-keyframes wide-l3p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -585;
   }
 }
 @-webkit-keyframes wide-l3p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -585;
   }
 }
 @-o-keyframes wide-l3p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -585;
   }
 }
 @keyframes wide-l3p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -585;
   }
 }
@@ -1051,22 +1056,22 @@
   animation-name: wide-l3p1-initial, wide-l3p1-roll;
 }
 @-moz-keyframes wide-l3p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-webkit-keyframes wide-l3p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-o-keyframes wide-l3p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @keyframes wide-l3p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
@@ -1099,22 +1104,22 @@
   animation-name: wide-l3p2-initial, wide-l3p2-roll;
 }
 @-moz-keyframes wide-l3p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @-webkit-keyframes wide-l3p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @-o-keyframes wide-l3p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @keyframes wide-l3p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
@@ -1147,22 +1152,22 @@
   animation-name: wide-l3p3-initial, wide-l3p3-roll;
 }
 @-moz-keyframes wide-l3p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -395;
   }
 }
 @-webkit-keyframes wide-l3p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -395;
   }
 }
 @-o-keyframes wide-l3p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -395;
   }
 }
 @keyframes wide-l3p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -395;
   }
 }
@@ -1195,22 +1200,22 @@
   animation-name: wide-l3p4-initial, wide-l3p4-roll;
 }
 @-moz-keyframes wide-l3p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-webkit-keyframes wide-l3p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-o-keyframes wide-l3p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @keyframes wide-l3p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
@@ -1243,22 +1248,22 @@
   animation-name: wide-l3p5-initial, wide-l3p5-roll;
 }
 @-moz-keyframes wide-l3p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -225;
   }
 }
 @-webkit-keyframes wide-l3p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -225;
   }
 }
 @-o-keyframes wide-l3p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -225;
   }
 }
 @keyframes wide-l3p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -225;
   }
 }
@@ -1291,22 +1296,22 @@
   animation-name: wide-l3p6-initial, wide-l3p6-roll;
 }
 @-moz-keyframes wide-l3p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @-webkit-keyframes wide-l3p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @-o-keyframes wide-l3p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @keyframes wide-l3p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
@@ -1339,22 +1344,22 @@
   animation-name: wide-l3p7-initial, wide-l3p7-roll;
 }
 @-moz-keyframes wide-l3p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
 @-webkit-keyframes wide-l3p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
 @-o-keyframes wide-l3p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
 @keyframes wide-l3p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
@@ -1390,22 +1395,22 @@
   animation-name: wide-l4p0-initial, wide-l4p0-roll;
 }
 @-moz-keyframes wide-l4p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @-webkit-keyframes wide-l4p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @-o-keyframes wide-l4p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
 @keyframes wide-l4p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -335;
   }
 }
@@ -1438,22 +1443,22 @@
   animation-name: wide-l4p1-initial, wide-l4p1-roll;
 }
 @-moz-keyframes wide-l4p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-webkit-keyframes wide-l4p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @-o-keyframes wide-l4p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
 @keyframes wide-l4p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -305;
   }
 }
@@ -1486,22 +1491,22 @@
   animation-name: wide-l4p2-initial, wide-l4p2-roll;
 }
 @-moz-keyframes wide-l4p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
 @-webkit-keyframes wide-l4p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
 @-o-keyframes wide-l4p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
 @keyframes wide-l4p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
@@ -1534,22 +1539,22 @@
   animation-name: wide-l4p3-initial, wide-l4p3-roll;
 }
 @-moz-keyframes wide-l4p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @-webkit-keyframes wide-l4p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @-o-keyframes wide-l4p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @keyframes wide-l4p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
@@ -1582,22 +1587,22 @@
   animation-name: wide-l4p4-initial, wide-l4p4-roll;
 }
 @-moz-keyframes wide-l4p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @-webkit-keyframes wide-l4p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @-o-keyframes wide-l4p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @keyframes wide-l4p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
@@ -1630,22 +1635,22 @@
   animation-name: wide-l4p5-initial, wide-l4p5-roll;
 }
 @-moz-keyframes wide-l4p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
 @-webkit-keyframes wide-l4p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
 @-o-keyframes wide-l4p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
 @keyframes wide-l4p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -85;
   }
 }
@@ -1678,22 +1683,22 @@
   animation-name: wide-l4p6-initial, wide-l4p6-roll;
 }
 @-moz-keyframes wide-l4p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @-webkit-keyframes wide-l4p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @-o-keyframes wide-l4p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @keyframes wide-l4p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
@@ -1726,22 +1731,22 @@
   animation-name: wide-l4p7-initial, wide-l4p7-roll;
 }
 @-moz-keyframes wide-l4p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 35;
   }
 }
 @-webkit-keyframes wide-l4p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 35;
   }
 }
 @-o-keyframes wide-l4p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 35;
   }
 }
 @keyframes wide-l4p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 35;
   }
 }
@@ -1774,22 +1779,22 @@
   animation-name: wide-l4p8-initial, wide-l4p8-roll;
 }
 @-moz-keyframes wide-l4p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 135;
   }
 }
 @-webkit-keyframes wide-l4p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 135;
   }
 }
 @-o-keyframes wide-l4p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 135;
   }
 }
 @keyframes wide-l4p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 135;
   }
 }
@@ -1825,22 +1830,22 @@
   animation-name: wide-l5p0-initial, wide-l5p0-roll;
 }
 @-moz-keyframes wide-l5p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
 @-webkit-keyframes wide-l5p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
 @-o-keyframes wide-l5p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
 @keyframes wide-l5p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -555;
   }
 }
@@ -1873,22 +1878,22 @@
   animation-name: wide-l5p1-initial, wide-l5p1-roll;
 }
 @-moz-keyframes wide-l5p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-webkit-keyframes wide-l5p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-o-keyframes wide-l5p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @keyframes wide-l5p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
@@ -1921,22 +1926,22 @@
   animation-name: wide-l5p2-initial, wide-l5p2-roll;
 }
 @-moz-keyframes wide-l5p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
 @-webkit-keyframes wide-l5p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
 @-o-keyframes wide-l5p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
 @keyframes wide-l5p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -425;
   }
 }
@@ -1969,22 +1974,22 @@
   animation-name: wide-l5p3-initial, wide-l5p3-roll;
 }
 @-moz-keyframes wide-l5p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -365;
   }
 }
 @-webkit-keyframes wide-l5p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -365;
   }
 }
 @-o-keyframes wide-l5p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -365;
   }
 }
 @keyframes wide-l5p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -365;
   }
 }
@@ -2017,22 +2022,22 @@
   animation-name: wide-l5p4-initial, wide-l5p4-roll;
 }
 @-moz-keyframes wide-l5p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
 @-webkit-keyframes wide-l5p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
 @-o-keyframes wide-l5p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
 @keyframes wide-l5p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
@@ -2065,22 +2070,22 @@
   animation-name: wide-l5p5-initial, wide-l5p5-roll;
 }
 @-moz-keyframes wide-l5p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -105;
   }
 }
 @-webkit-keyframes wide-l5p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -105;
   }
 }
 @-o-keyframes wide-l5p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -105;
   }
 }
 @keyframes wide-l5p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -105;
   }
 }
@@ -2116,22 +2121,22 @@
   animation-name: wide-l6p0-initial, wide-l6p0-roll;
 }
 @-moz-keyframes wide-l6p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -785;
   }
 }
 @-webkit-keyframes wide-l6p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -785;
   }
 }
 @-o-keyframes wide-l6p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -785;
   }
 }
 @keyframes wide-l6p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -785;
   }
 }
@@ -2164,22 +2169,22 @@
   animation-name: wide-l6p1-initial, wide-l6p1-roll;
 }
 @-moz-keyframes wide-l6p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -755;
   }
 }
 @-webkit-keyframes wide-l6p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -755;
   }
 }
 @-o-keyframes wide-l6p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -755;
   }
 }
 @keyframes wide-l6p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -755;
   }
 }
@@ -2212,22 +2217,22 @@
   animation-name: wide-l6p2-initial, wide-l6p2-roll;
 }
 @-moz-keyframes wide-l6p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
 @-webkit-keyframes wide-l6p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
 @-o-keyframes wide-l6p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
 @keyframes wide-l6p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
@@ -2260,22 +2265,22 @@
   animation-name: wide-l6p3-initial, wide-l6p3-roll;
 }
 @-moz-keyframes wide-l6p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
 @-webkit-keyframes wide-l6p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
 @-o-keyframes wide-l6p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
 @keyframes wide-l6p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
@@ -2308,22 +2313,22 @@
   animation-name: wide-l6p4-initial, wide-l6p4-roll;
 }
 @-moz-keyframes wide-l6p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-webkit-keyframes wide-l6p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-o-keyframes wide-l6p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @keyframes wide-l6p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
@@ -2356,22 +2361,22 @@
   animation-name: wide-l6p5-initial, wide-l6p5-roll;
 }
 @-moz-keyframes wide-l6p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @-webkit-keyframes wide-l6p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @-o-keyframes wide-l6p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @keyframes wide-l6p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
@@ -2404,22 +2409,22 @@
   animation-name: wide-l6p6-initial, wide-l6p6-roll;
 }
 @-moz-keyframes wide-l6p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
 @-webkit-keyframes wide-l6p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
 @-o-keyframes wide-l6p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
 @keyframes wide-l6p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
@@ -2452,22 +2457,22 @@
   animation-name: wide-l6p7-initial, wide-l6p7-roll;
 }
 @-moz-keyframes wide-l6p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-webkit-keyframes wide-l6p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-o-keyframes wide-l6p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @keyframes wide-l6p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
@@ -2500,22 +2505,22 @@
   animation-name: wide-l6p8-initial, wide-l6p8-roll;
 }
 @-moz-keyframes wide-l6p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
 @-webkit-keyframes wide-l6p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
 @-o-keyframes wide-l6p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
 @keyframes wide-l6p8-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
@@ -2551,22 +2556,22 @@
   animation-name: wide-l7p0-initial, wide-l7p0-roll;
 }
 @-moz-keyframes wide-l7p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-webkit-keyframes wide-l7p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @-o-keyframes wide-l7p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
 @keyframes wide-l7p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -485;
   }
 }
@@ -2599,22 +2604,22 @@
   animation-name: wide-l7p1-initial, wide-l7p1-roll;
 }
 @-moz-keyframes wide-l7p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -405;
   }
 }
 @-webkit-keyframes wide-l7p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -405;
   }
 }
 @-o-keyframes wide-l7p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -405;
   }
 }
 @keyframes wide-l7p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -405;
   }
 }
@@ -2647,22 +2652,22 @@
   animation-name: wide-l7p2-initial, wide-l7p2-roll;
 }
 @-moz-keyframes wide-l7p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -355;
   }
 }
 @-webkit-keyframes wide-l7p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -355;
   }
 }
 @-o-keyframes wide-l7p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -355;
   }
 }
 @keyframes wide-l7p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -355;
   }
 }
@@ -2695,22 +2700,22 @@
   animation-name: wide-l7p3-initial, wide-l7p3-roll;
 }
 @-moz-keyframes wide-l7p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
 @-webkit-keyframes wide-l7p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
 @-o-keyframes wide-l7p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
 @keyframes wide-l7p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
@@ -2743,22 +2748,22 @@
   animation-name: wide-l7p4-initial, wide-l7p4-roll;
 }
 @-moz-keyframes wide-l7p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
 @-webkit-keyframes wide-l7p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
 @-o-keyframes wide-l7p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
 @keyframes wide-l7p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -235;
   }
 }
@@ -2791,22 +2796,22 @@
   animation-name: wide-l7p5-initial, wide-l7p5-roll;
 }
 @-moz-keyframes wide-l7p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @-webkit-keyframes wide-l7p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @-o-keyframes wide-l7p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @keyframes wide-l7p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
@@ -2839,22 +2844,22 @@
   animation-name: wide-l7p6-initial, wide-l7p6-roll;
 }
 @-moz-keyframes wide-l7p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
 @-webkit-keyframes wide-l7p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
 @-o-keyframes wide-l7p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
 @keyframes wide-l7p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -75;
   }
 }
@@ -2887,22 +2892,22 @@
   animation-name: wide-l7p7-initial, wide-l7p7-roll;
 }
 @-moz-keyframes wide-l7p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
 @-webkit-keyframes wide-l7p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
 @-o-keyframes wide-l7p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
 @keyframes wide-l7p7-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -5;
   }
 }
@@ -2938,22 +2943,22 @@
   animation-name: wide-l8p0-initial, wide-l8p0-roll;
 }
 @-moz-keyframes wide-l8p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
 @-webkit-keyframes wide-l8p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
 @-o-keyframes wide-l8p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
 @keyframes wide-l8p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -635;
   }
 }
@@ -2986,22 +2991,22 @@
   animation-name: wide-l8p1-initial, wide-l8p1-roll;
 }
 @-moz-keyframes wide-l8p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
 @-webkit-keyframes wide-l8p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
 @-o-keyframes wide-l8p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
 @keyframes wide-l8p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -535;
   }
 }
@@ -3034,22 +3039,22 @@
   animation-name: wide-l8p2-initial, wide-l8p2-roll;
 }
 @-moz-keyframes wide-l8p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @-webkit-keyframes wide-l8p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @-o-keyframes wide-l8p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
 @keyframes wide-l8p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -455;
   }
 }
@@ -3082,22 +3087,22 @@
   animation-name: wide-l8p3-initial, wide-l8p3-roll;
 }
 @-moz-keyframes wide-l8p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
 @-webkit-keyframes wide-l8p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
 @-o-keyframes wide-l8p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
 @keyframes wide-l8p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
@@ -3130,22 +3135,22 @@
   animation-name: wide-l8p4-initial, wide-l8p4-roll;
 }
 @-moz-keyframes wide-l8p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-webkit-keyframes wide-l8p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-o-keyframes wide-l8p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @keyframes wide-l8p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
@@ -3178,22 +3183,22 @@
   animation-name: wide-l8p5-initial, wide-l8p5-roll;
 }
 @-moz-keyframes wide-l8p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
 @-webkit-keyframes wide-l8p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
 @-o-keyframes wide-l8p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
 @keyframes wide-l8p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -195;
   }
 }
@@ -3226,22 +3231,22 @@
   animation-name: wide-l8p6-initial, wide-l8p6-roll;
 }
 @-moz-keyframes wide-l8p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -135;
   }
 }
 @-webkit-keyframes wide-l8p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -135;
   }
 }
 @-o-keyframes wide-l8p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -135;
   }
 }
 @keyframes wide-l8p6-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -135;
   }
 }
@@ -3277,22 +3282,22 @@
   animation-name: wide-l9p0-initial, wide-l9p0-roll;
 }
 @-moz-keyframes wide-l9p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -595;
   }
 }
 @-webkit-keyframes wide-l9p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -595;
   }
 }
 @-o-keyframes wide-l9p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -595;
   }
 }
 @keyframes wide-l9p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -595;
   }
 }
@@ -3325,22 +3330,22 @@
   animation-name: wide-l9p1-initial, wide-l9p1-roll;
 }
 @-moz-keyframes wide-l9p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -495;
   }
 }
 @-webkit-keyframes wide-l9p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -495;
   }
 }
 @-o-keyframes wide-l9p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -495;
   }
 }
 @keyframes wide-l9p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -495;
   }
 }
@@ -3373,22 +3378,22 @@
   animation-name: wide-l9p2-initial, wide-l9p2-roll;
 }
 @-moz-keyframes wide-l9p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
 @-webkit-keyframes wide-l9p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
 @-o-keyframes wide-l9p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
 @keyframes wide-l9p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -345;
   }
 }
@@ -3421,22 +3426,22 @@
   animation-name: wide-l9p3-initial, wide-l9p3-roll;
 }
 @-moz-keyframes wide-l9p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
 @-webkit-keyframes wide-l9p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
 @-o-keyframes wide-l9p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
 @keyframes wide-l9p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -415;
   }
 }
@@ -3469,22 +3474,22 @@
   animation-name: wide-l9p4-initial, wide-l9p4-roll;
 }
 @-moz-keyframes wide-l9p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-webkit-keyframes wide-l9p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-o-keyframes wide-l9p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @keyframes wide-l9p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
@@ -3517,22 +3522,22 @@
   animation-name: wide-l9p5-initial, wide-l9p5-roll;
 }
 @-moz-keyframes wide-l9p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -220;
   }
 }
 @-webkit-keyframes wide-l9p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -220;
   }
 }
 @-o-keyframes wide-l9p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -220;
   }
 }
 @keyframes wide-l9p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -220;
   }
 }
@@ -3568,22 +3573,22 @@
   animation-name: wide-l10p0-initial, wide-l10p0-roll;
 }
 @-moz-keyframes wide-l10p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-webkit-keyframes wide-l10p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @-o-keyframes wide-l10p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
 @keyframes wide-l10p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -315;
   }
 }
@@ -3616,22 +3621,22 @@
   animation-name: wide-l10p1-initial, wide-l10p1-roll;
 }
 @-moz-keyframes wide-l10p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
 @-webkit-keyframes wide-l10p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
 @-o-keyframes wide-l10p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
 @keyframes wide-l10p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -245;
   }
 }
@@ -3664,22 +3669,22 @@
   animation-name: wide-l10p2-initial, wide-l10p2-roll;
 }
 @-moz-keyframes wide-l10p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -205;
   }
 }
 @-webkit-keyframes wide-l10p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -205;
   }
 }
 @-o-keyframes wide-l10p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -205;
   }
 }
 @keyframes wide-l10p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -205;
   }
 }
@@ -3712,22 +3717,22 @@
   animation-name: wide-l10p3-initial, wide-l10p3-roll;
 }
 @-moz-keyframes wide-l10p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
 @-webkit-keyframes wide-l10p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
 @-o-keyframes wide-l10p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
 @keyframes wide-l10p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -165;
   }
 }
@@ -3760,22 +3765,22 @@
   animation-name: wide-l10p4-initial, wide-l10p4-roll;
 }
 @-moz-keyframes wide-l10p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @-webkit-keyframes wide-l10p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @-o-keyframes wide-l10p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @keyframes wide-l10p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
@@ -3811,22 +3816,22 @@
   animation-name: wide-l11p0-initial, wide-l11p0-roll;
 }
 @-moz-keyframes wide-l11p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
 @-webkit-keyframes wide-l11p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
 @-o-keyframes wide-l11p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
 @keyframes wide-l11p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -435;
   }
 }
@@ -3859,22 +3864,22 @@
   animation-name: wide-l11p1-initial, wide-l11p1-roll;
 }
 @-moz-keyframes wide-l11p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
 @-webkit-keyframes wide-l11p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
 @-o-keyframes wide-l11p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
 @keyframes wide-l11p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -295;
   }
 }
@@ -3907,22 +3912,22 @@
   animation-name: wide-l11p2-initial, wide-l11p2-roll;
 }
 @-moz-keyframes wide-l11p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
 @-webkit-keyframes wide-l11p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
 @-o-keyframes wide-l11p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
 @keyframes wide-l11p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -215;
   }
 }
@@ -3955,22 +3960,22 @@
   animation-name: wide-l11p3-initial, wide-l11p3-roll;
 }
 @-moz-keyframes wide-l11p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @-webkit-keyframes wide-l11p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @-o-keyframes wide-l11p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
 @keyframes wide-l11p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -175;
   }
 }
@@ -4003,22 +4008,22 @@
   animation-name: wide-l11p4-initial, wide-l11p4-roll;
 }
 @-moz-keyframes wide-l11p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @-webkit-keyframes wide-l11p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @-o-keyframes wide-l11p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
 @keyframes wide-l11p4-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -115;
   }
 }
@@ -4051,22 +4056,22 @@
   animation-name: wide-l11p5-initial, wide-l11p5-roll;
 }
 @-moz-keyframes wide-l11p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @-webkit-keyframes wide-l11p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @-o-keyframes wide-l11p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
 @keyframes wide-l11p5-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -15;
   }
 }
@@ -4102,22 +4107,22 @@
   animation-name: wide-l12p0-initial, wide-l12p0-roll;
 }
 @-moz-keyframes wide-l12p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -255;
   }
 }
 @-webkit-keyframes wide-l12p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -255;
   }
 }
 @-o-keyframes wide-l12p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -255;
   }
 }
 @keyframes wide-l12p0-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -255;
   }
 }
@@ -4150,22 +4155,22 @@
   animation-name: wide-l12p1-initial, wide-l12p1-roll;
 }
 @-moz-keyframes wide-l12p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -155;
   }
 }
 @-webkit-keyframes wide-l12p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -155;
   }
 }
 @-o-keyframes wide-l12p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -155;
   }
 }
 @keyframes wide-l12p1-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -155;
   }
 }
@@ -4198,22 +4203,22 @@
   animation-name: wide-l12p2-initial, wide-l12p2-roll;
 }
 @-moz-keyframes wide-l12p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -25;
   }
 }
 @-webkit-keyframes wide-l12p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -25;
   }
 }
 @-o-keyframes wide-l12p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -25;
   }
 }
 @keyframes wide-l12p2-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: -25;
   }
 }
@@ -4246,22 +4251,22 @@
   animation-name: wide-l12p3-initial, wide-l12p3-roll;
 }
 @-moz-keyframes wide-l12p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 55;
   }
 }
 @-webkit-keyframes wide-l12p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 55;
   }
 }
 @-o-keyframes wide-l12p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 55;
   }
 }
 @keyframes wide-l12p3-initial {
-  0% {
+  0%, 50% {
     stroke-dashoffset: 55;
   }
 }
